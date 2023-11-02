@@ -11,6 +11,15 @@
 		5AA71BA32AF45ADD0091C9E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA71BA22AF45ADD0091C9E8 /* ContentView.swift */; };
 		5AA71BA52AF45ADE0091C9E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA71BA42AF45ADE0091C9E8 /* Assets.xcassets */; };
 		5AA71BA82AF45ADE0091C9E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA71BA72AF45ADE0091C9E8 /* Preview Assets.xcassets */; };
+		5AA71BB02AF45B340091C9E8 /* WaitlistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA71BAF2AF45B340091C9E8 /* WaitlistViewModel.swift */; };
+		5AA71BB22AF45B500091C9E8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA71BB12AF45B500091C9E8 /* Person.swift */; };
+		5AA71BB62AF45C4F0091C9E8 /* WaitlistViewModelViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA71BB52AF45C4F0091C9E8 /* WaitlistViewModelViewExtensions.swift */; };
+		5AA71BB82AF45CD80091C9E8 /* WaitlistViewModelPeopleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA71BB72AF45CD80091C9E8 /* WaitlistViewModelPeopleList.swift */; };
+		5AA71BBA2AF45D760091C9E8 /* WaitlistViewModelAddPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA71BB92AF45D760091C9E8 /* WaitlistViewModelAddPerson.swift */; };
+		5AA71BBC2AF45E720091C9E8 /* WaitlistViewModelRemovePerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA71BBB2AF45E720091C9E8 /* WaitlistViewModelRemovePerson.swift */; };
+		5AA71BBF2AF4649B0091C9E8 /* AddPersonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA71BBE2AF4649B0091C9E8 /* AddPersonFormView.swift */; };
+		5AA71BC12AF465260091C9E8 /* PersonRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA71BC02AF465260091C9E8 /* PersonRowView.swift */; };
+		5AA71BC32AF467450091C9E8 /* WaitlistPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA71BC22AF467450091C9E8 /* WaitlistPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		5AA71BA22AF45ADD0091C9E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5AA71BA42AF45ADE0091C9E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AA71BA72AF45ADE0091C9E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5AA71BAF2AF45B340091C9E8 /* WaitlistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitlistViewModel.swift; sourceTree = "<group>"; };
+		5AA71BB12AF45B500091C9E8 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5AA71BB52AF45C4F0091C9E8 /* WaitlistViewModelViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitlistViewModelViewExtensions.swift; sourceTree = "<group>"; };
+		5AA71BB72AF45CD80091C9E8 /* WaitlistViewModelPeopleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitlistViewModelPeopleList.swift; sourceTree = "<group>"; };
+		5AA71BB92AF45D760091C9E8 /* WaitlistViewModelAddPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitlistViewModelAddPerson.swift; sourceTree = "<group>"; };
+		5AA71BBB2AF45E720091C9E8 /* WaitlistViewModelRemovePerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitlistViewModelRemovePerson.swift; sourceTree = "<group>"; };
+		5AA71BBE2AF4649B0091C9E8 /* AddPersonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonFormView.swift; sourceTree = "<group>"; };
+		5AA71BC02AF465260091C9E8 /* PersonRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRowView.swift; sourceTree = "<group>"; };
+		5AA71BC22AF467450091C9E8 /* WaitlistPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitlistPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,8 @@
 		5AA71B9F2AF45ADD0091C9E8 /* Waitlist */ = {
 			isa = PBXGroup;
 			children = (
+				5AA71BBD2AF464920091C9E8 /* Views */,
+				5AA71BB32AF45C0C0091C9E8 /* Model */,
 				5AA71BA02AF45ADD0091C9E8 /* WaitlistApp.swift */,
 				5AA71BA22AF45ADD0091C9E8 /* ContentView.swift */,
 				5AA71BA42AF45ADE0091C9E8 /* Assets.xcassets */,
@@ -65,6 +85,37 @@
 				5AA71BA72AF45ADE0091C9E8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5AA71BB32AF45C0C0091C9E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5AA71BAF2AF45B340091C9E8 /* WaitlistViewModel.swift */,
+				5AA71BB12AF45B500091C9E8 /* Person.swift */,
+				5AA71BB42AF45C380091C9E8 /* Environment */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5AA71BB42AF45C380091C9E8 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				5AA71BB52AF45C4F0091C9E8 /* WaitlistViewModelViewExtensions.swift */,
+				5AA71BB72AF45CD80091C9E8 /* WaitlistViewModelPeopleList.swift */,
+				5AA71BB92AF45D760091C9E8 /* WaitlistViewModelAddPerson.swift */,
+				5AA71BBB2AF45E720091C9E8 /* WaitlistViewModelRemovePerson.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		5AA71BBD2AF464920091C9E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5AA71BBE2AF4649B0091C9E8 /* AddPersonFormView.swift */,
+				5AA71BC02AF465260091C9E8 /* PersonRowView.swift */,
+				5AA71BC22AF467450091C9E8 /* WaitlistPageView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +188,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA71BBC2AF45E720091C9E8 /* WaitlistViewModelRemovePerson.swift in Sources */,
+				5AA71BB62AF45C4F0091C9E8 /* WaitlistViewModelViewExtensions.swift in Sources */,
+				5AA71BC12AF465260091C9E8 /* PersonRowView.swift in Sources */,
+				5AA71BBA2AF45D760091C9E8 /* WaitlistViewModelAddPerson.swift in Sources */,
 				5AA71BA32AF45ADD0091C9E8 /* ContentView.swift in Sources */,
+				5AA71BB82AF45CD80091C9E8 /* WaitlistViewModelPeopleList.swift in Sources */,
+				5AA71BB02AF45B340091C9E8 /* WaitlistViewModel.swift in Sources */,
+				5AA71BBF2AF4649B0091C9E8 /* AddPersonFormView.swift in Sources */,
+				5AA71BC32AF467450091C9E8 /* WaitlistPageView.swift in Sources */,
+				5AA71BB22AF45B500091C9E8 /* Person.swift in Sources */,
 				5AA71BA12AF45ADD0091C9E8 /* WaitlistApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
