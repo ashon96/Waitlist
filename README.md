@@ -31,7 +31,7 @@ of your new function from the view extension:
 
 5. It's time to use your newly extracted unit of data/function! Open an existing/children view where you would
 like to invoke this.
-![alt text](Images/wait_list_page_view.png)
+![alt text](Images/waitlist_page_view.png)
 
 Access your data piece with the Environment property wrapper and the corresponding environment key value.
 Use the variable like any other piece of data/function would.
