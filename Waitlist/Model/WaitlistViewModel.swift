@@ -21,3 +21,6 @@ class WaitlistViewModel: ObservableObject {
         }
     }
 }
+
+
+

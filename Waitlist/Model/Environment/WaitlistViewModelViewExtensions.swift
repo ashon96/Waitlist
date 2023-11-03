@@ -15,3 +15,7 @@ extension View {
             .environment(\.removePerson, waitlistViewModel.removePerson(with:))
     }
 }
+
+
+
+
