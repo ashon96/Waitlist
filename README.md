@@ -1,7 +1,7 @@
 # Waitlist
 
 This project is used for demonstration of a dependency injection pattern that is able to
-easily mock the mimial data/functionalities needed for a particular SwiftUI view and would
+easily mock the minimal data/functionalities needed for a particular SwiftUI view and would
 therefore allow SwiftUI previews to be used seamlessly with minimal effort.
 
 Traditionally, a view would need to access an entire ViewModel class in order to access
@@ -35,7 +35,7 @@ like to invoke this.
 ![alt text](Images/waitlist_page_view.png)
 
 Access your data piece with the Environment property wrapper and the corresponding environment key value.
-Use the variable like any other piece of data/function would.
+Use the variable like any other piece of data/function would be used.
 
 6. In your current SwiftUI preview, you can mock that exact unit of data/function as well as any others that
 your view may have access to in its sub views as the following:
